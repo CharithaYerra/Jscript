@@ -28,4 +28,14 @@ ex:strings , number,true or false, null ,undefined
  if we don't assign any value it will in undefined mode
  by default.
  But only for defined and not assigned
+
+ Non primitive data types
+ ----------------------
+ it contain multiple values ex=arrays,objects,functions
+array-->can contain the values which can acceced by index values
+let a=[1,2,2,];
+object-->has the key and values can be access the value by using the key
+let NameAge={divya:10,Sarala:20};
+functions-->we can encolse the statements to make into a singular group
+
  
