@@ -18,11 +18,24 @@ let Objects={
     entertainment :[ "movie","cartoon"]
 };
 console.log(Objects);
+//by using key
+
+//how to get values using keys
+
 console.log(Objects.actors["harry"]);
+console.log(Objects["actors"]["harry"]);
+
+//we can't get values by using the index number
+console.log(Objects[0]);//undefined
+
+console.log(Objects.actors["Daniel"]);// use only key value
 
 
-console.log(Objects.actors.granger);
+//nested key values
+
+console.log(Objects.actors.granger); 
 console.log(Objects.entertainment[1]);
+console.log(Objects["entertainment"][1]);
 
 console.log(Objects.actors.granger,Stddetails[1][2]);
 
@@ -69,4 +82,3 @@ console.log("Original array:", myArray);
 myArray.push(6,7);
 console.log("Array after pushing multiple values:", myArray);     
 
-       
