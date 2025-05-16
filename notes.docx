@@ -38,4 +38,6 @@ object-->has the key and values can be access the value by using the key
 let NameAge={divya:10,Sarala:20};
 functions-->we can encolse the statements to make into a singular group
 
+
+cntrl+g
  
