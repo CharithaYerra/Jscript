@@ -1,13 +1,16 @@
 //Non primitive data types
-let Names=[1,2];
+let Numbers=[1,2];
 console.log(Names[1]);
+
+//Student details
 let STdDetails=["Siri",20,"btech",true];
+//student details
 let Stddetails=["name","age","phno",
     ["divya",20,2478329]]
     console.log(Stddetails[1][2]);
 
-    //object usages
-    
+//object usages
+
 let Objects={
     key:"value",
     book:"author",
