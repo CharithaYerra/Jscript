@@ -45,3 +45,17 @@ we can access object values using the key value variable.key
 
 cntrl+g
  
+ functions
+ ---------------
+ functions are used to encircle a group of statements as a block
+ work by calling them
+function functionname(){
+    --;
+    ---;
+} 
+functionname();
+
+Styling the console
+-------------
+console.log("%cstring","stylename:value");
+
