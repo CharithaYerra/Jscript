@@ -1,5 +1,6 @@
 
 //function usage
+let Teachers;
 function School() {
     let Teachers = ["Swapna", "siri", "Karthik"];
     let Classes = [5, 6, 7, 8];
@@ -9,6 +10,7 @@ function School() {
     console.log(Address);
 }//function defination
 School();//function calling
+
 
 //styling the console using %c styling directive
 
@@ -27,3 +29,5 @@ function section1(){
     black();  //function calling inside a function
 }
 section1(); //calling the section
+
+
