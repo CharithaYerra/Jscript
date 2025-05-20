@@ -1,0 +1,31 @@
+Styling console
+------------------
+We use %c to style the console
+
+stying Documnet--> we can style the document similar to the css
+
+Function calling inside the other Function
+-------------
+ 1.if the function is a global function then we can call it in any function
+ 2.But the function is declared insided the function its scope will only remain 
+ to that function.
+ 3.We can get the values by return key word
+
+ * To use the inner function outside the function we can assign the function 
+   to the global variable
+
+Parameters and arguments
+--------------------------
+Arguments are the values that we send to the function while function calling.
+Parameter are the variable that store that values.
+
+parameters of 3 types they are
+Optional parameter-->WE can send arguments otherwise not
+Default parameters-->If we don't the values in calling it will have a default values
+Rest Parameter--->We can send infite arguments that can store in array
+
+Return values and non return values
+------------------------------------
+The function send the return values to the calling function
+the function does not give any return values
+It uses return keyword to return the values
