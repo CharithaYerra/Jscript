@@ -35,7 +35,7 @@ section1(); //calling the section
 //we cann't use the same variable outside
 let a=10
 let Value=function(){
-  let a=20;
+   a=20;//here the a globle value is reassined
   let b=20;
 }
 Value();
@@ -43,9 +43,13 @@ console.log(a);
 
  a=30;
 let Values=function(){
-  let a=10;
+  let a=10; 
+  a=25; //here a value that is declared in function is reassined
   let b=20;
 }
+Values();
+console.log(a);
+
   a=40,b=20;
 
 console.log(a);
