@@ -70,4 +70,12 @@ console.log(Noun());
 
 
 
+let funcs = {
+  greet: function() { console.log("Hello!"); },
+  bye: function() { console.log("Goodbye!"); }
+};
+
+funcs.greet(); // Hello!
+funcs.bye();   // Goodbye!
+
     
