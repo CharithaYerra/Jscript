@@ -30,4 +30,22 @@ function section1(){
 }
 section1(); //calling the section
 
+//scope
+//the a,b variables only for that function so there is no error
+//we cann't use the same variable outside
+let a=10
+let Value=function(){
+  let a=20;
+  let b=20;
+}
+Value();
+console.log(a);
 
+ a=30;
+let Values=function(){
+  let a=10;
+  let b=20;
+}
+  a=40,b=20;
+
+console.log(a);

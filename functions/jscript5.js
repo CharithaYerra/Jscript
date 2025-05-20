@@ -78,4 +78,24 @@ let funcs = {
 funcs.greet(); // Hello!
 funcs.bye();   // Goodbye!
 
+
+let Song=function(){
+  return "sa re ga me pa da ne sa";
+}
+Song();//it does not do anything
+
+let Sing=Song();
+//The string now is stored in the Sing variable
+
+console.log(Sing);
+
+function List(name,lyrics){
+  return `The name of the song is ${name} and the lyrics are ${lyrics}`;
+}
+
+console.log(`%c ${List("inkem","inkem inkem kavale")}`,"color:red");
+let name="Inkem",lyrics="Inkem Inkem Kavaley"
+let SongName=List(name,lyrics);
+console.log(SongName);
+
     
