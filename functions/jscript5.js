@@ -57,6 +57,17 @@ console.log(bookName());
 console.dir(bookName);
 
 
+//Let us see the path how it works when a function is called
+
+
+let Noun = function A()
+{ 
+      console.log("This is inside the function")
+      return ("this is returned value that is showed where it is called in the console");
+}
+
+console.log(Noun());
+
 
 
     
