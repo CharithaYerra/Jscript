@@ -31,7 +31,7 @@ setTimeout(Listoftheaters,3000);
 //set time out with function call and arguments
 
 function time(time){
-    
+    console.log("This is runnig in set time out")
 }
 setTimeout(time,3000,"3");
 
@@ -40,4 +40,8 @@ setTimeout(() => time("4"), 4000);
 
 setInterval(()=>{
     document.write("We are using set time interval")
-},5000)
+},5000);
+
+
+ 
+ 
