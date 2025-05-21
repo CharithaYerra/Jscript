@@ -31,7 +31,7 @@ setTimeout(Listoftheaters,3000);
 //set time out with function call and arguments
 
 function time(time){
-    console.log("This runs after the seconds of "+time );
+    
 }
 setTimeout(time,3000,"3");
 

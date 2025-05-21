@@ -8,22 +8,22 @@
 })();
 
 //IIFE with parameters
-
+let Strength ="hi";//global variable
 (function (Strength){
     document.write("my strength is : " +Strength);
 })("Team Work");
  
-
+console.log(Strength);
 (function(...Strength){
     console.log(Strength);
 })("team work","communication","positive nature");
 
 
-Weakness=["Lazyness","Movies"];
+let Weakness=["Lazyness","Movies"];
 
-(function(Weakness)
+(function()
 {
-    console.log("My weakness is " +Weakness );
+    console.log("My weakness is " + Weakness );
 })(Weakness);
 
 //IIFE with function as parameter

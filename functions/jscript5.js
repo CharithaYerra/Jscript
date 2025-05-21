@@ -62,7 +62,8 @@ console.dir(bookName);
 
 let Noun = function A()
 { 
-      console.log("This is inside the function")
+      console.log("This is inside the function\n");
+      console.log("\n\n"); 
       return ("this is returned value that is showed where it is called in the console");
 }
 
