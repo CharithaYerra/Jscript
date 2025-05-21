@@ -29,7 +29,10 @@ ${Books().writers.Alchemist} and ${Books().writers.Rings} .They are very enjoyab
 
 console.log(sentence);
 
-
 (function() {
   console.log("This runs immediately!");
 })();
+
+(function(greet) {
+  document.write(greet);
+})("hi");
