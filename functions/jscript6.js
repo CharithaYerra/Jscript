@@ -24,7 +24,7 @@ let WorkExperience = function(company,yearsExp){
 
 WorkExperience("Google","2 years");
 
-//parameter in variables
+//variables are arguments
 company="Excel";
 yearsExp="12 years";
 WorkExperience(company,yearsExp);
