@@ -27,7 +27,7 @@ console.log(Result);
 
 var Color="Red";
 //same scope cant have two same name
-//function Color(...Color){
+//function Color(){
 function Rainbow(...Color){
     console.log(`%crainbow %chas %cthe %ccolors %c${Color}`,"color:red","color:blue","color:green","color:pink","color:yellow");
     return Color;
@@ -62,3 +62,19 @@ function List(){
 }
 List();
 console.log(Tablets);
+
+
+var Rymes=["twinke twinkle little star","the wheels on the bus"];
+
+function booktypes(){
+    function Rymes(){
+        console.log("the rymes are twinke twinkle little star","the wheels on the bus ");
+    }
+    function biography(){
+        console.log("the biography books are Alexander Hamilton");
+
+    }
+    Rymes();
+    biography();
+}
+booktypes();

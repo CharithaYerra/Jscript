@@ -32,6 +32,7 @@ var country="india";
     console.log(country);
     console.log(state);
 }
+var country="usa";
     console.log(state);
 
 
