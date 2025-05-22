@@ -49,3 +49,21 @@ function Outer(){
 }
 Outer();
 
+
+//anonymous function
+
+var List;
+var Trade;
+function malls(){
+    console.log("Malls near me are Vishal");
+    List = function(){
+        console.log("these are anonymous fuction with global variable");
+    }
+    Trade=()=>{
+        console.log("Array function usage for global variables");
+    }
+
+}
+malls();
+List();
+Trade();
