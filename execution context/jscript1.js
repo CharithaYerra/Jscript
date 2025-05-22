@@ -1,10 +1,13 @@
-// declared with variable
+// declared with var
 function fruits(){
     var fruit="apple";
     console.log(fruit);
 
 }
 fruits();
+     //here variable is not global as it is declare in function
+    //console.log(fruit);
+
 
 
 //variable is defined by global but it takes main local if same name

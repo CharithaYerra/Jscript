@@ -2,10 +2,13 @@ var global="global variable";
     console.log(global);
 
 {
-    let firstblock="block 1 variable";
+    var firstblock="block 1 variable";
     console.log(firstblock);
     console.log(global+" used in block 1");
 }
+   //as it is only block var is taking the global
+  //  console.log(firstblock);
+
 {
     let secondblock="block 2 variable";
     console.log(secondblock);

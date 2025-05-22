@@ -1,3 +1,4 @@
+//array function
 var Attendece=["siri","nandini","samantha"];
 
 let Class=()=>{
@@ -7,6 +8,7 @@ let Class=()=>{
 
 Class();
 
+//return functions scopt of variables
 function Results(){
     let name="Hari";
     let subject="Hindi";
@@ -47,3 +49,16 @@ function Timeof(){
     //console.log(seconds);
 }
 Timeof();
+
+
+var Tablets="Dolo";
+function List(){
+    let Tablets="Citregin";
+    console.log(Tablets);
+    //now we are reassigning so it is taking local variable
+    Tablets="Paracetmale";
+    console.log(Tablets);
+
+}
+List();
+console.log(Tablets);
