@@ -38,10 +38,20 @@ setTimeout(time,3000,"3");
 setTimeout(() => time("4"), 4000);
 
 
+setTimeout(function(movieName){
+    console.log(movieName);
+},3000,"Manam");
+
+
 setInterval(()=>{
     document.write("We are using set time interval")
 },5000);
 
+//setTimeout((){},time);
 
+setTimeout(function execution(day3){
+    console.log(day3);
+},10000,"wednesday");
+ 
  
  
