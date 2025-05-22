@@ -1,0 +1,9 @@
+Execution scope
+---------------------------
+When a variable is declared it will be acceseble at a particular par of a code.
+global execution code-->the default element it can be available at entire code
+local execution code----> created within a block,the declared variables are only available in that particular block
+scope chain-->
+the child block has the access over parent variables but not viceversa
+
+

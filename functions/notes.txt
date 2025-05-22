@@ -29,3 +29,26 @@ Return values and non return values
 The function send the return values to the calling function
 the function does not give any return values
 It uses return keyword to return the values
+
+
+Named functions
+--------------------
+the function having a Name
+
+Anonumus function
+------------------
+The function that does not have name or IIFE (immediateltly invoke functions expression)
+
+Array function
+-----------------
+the function is declared in form of an array it give a clear view or understanding
+
+callback function
+------------------------
+the function that accepts the other functions as the parameters are known as callback functions
+
+
+Predefined function
+---------------------------
+setTimeout->is used to perform after the give time 
+setInterval-->It perform repeatedly after the given time intervals
