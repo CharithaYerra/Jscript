@@ -65,7 +65,7 @@ console.log(Tablets);
 
 
 var Rymes=["twinke twinkle little star","the wheels on the bus"];
-
+//we cannot use the global variable inside the function if it has same name
 function booktypes(){
     function Rymes(){
         console.log("the rymes are twinke twinkle little star","the wheels on the bus ");
