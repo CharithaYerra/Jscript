@@ -5,3 +5,8 @@ function BalanceDiet(breakfast,dinner="not specified"){
 let diet=BalanceDiet("dosa");
 
 document.write(diet);
+
+
+setTimeout(function(){
+    document.write("set time out is printing");
+},2000);

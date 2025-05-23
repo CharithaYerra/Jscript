@@ -27,12 +27,7 @@ Matrix(2,3);
 //return of array and object
 document.write("<br>");
 
-function BalanceDiet(breakfast,dinner="not specified"){
-    return {breakfast:"corn",dinner:"roti"};
 
-}
-
-document.write(BalanceDiet("dosa"));
 
 document.write("<br>");
 
