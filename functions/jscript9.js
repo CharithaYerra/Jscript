@@ -37,9 +37,10 @@ setTimeout(time,3000,"3");
 
 setTimeout(() => time("4"), 4000);
 
-
+document.write("this is before time out");
 setTimeout(function(movieName){
     console.log(movieName);
+    document.write("hello this is time out");
 },3000,"Manam");
 
 
