@@ -53,8 +53,9 @@ let bookName = function(){
 //but it doesnot return anything
 //so when it returns there will be nothing so undefined
 
-console.log(bookName());
+bookName();
 console.dir(bookName);
+console.log(bookName);
 
 
 //Let us see the path how it works when a function is called
