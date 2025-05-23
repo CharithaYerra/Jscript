@@ -33,7 +33,7 @@ console.log(show());
     console.log("%c the square of the number is" +squares(5),"color:red");
 
 
-    let square = (num) => {
+let square = (num) => {
   return num * num;
 };
 
