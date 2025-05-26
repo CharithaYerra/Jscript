@@ -36,3 +36,5 @@ let multiply = function(a, b) {
 };
 
 console.log(process(multiply, 3, 4)); // Output: 12
+
+
