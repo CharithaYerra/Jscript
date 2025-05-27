@@ -80,3 +80,10 @@ const user1 = {
 };
 
 user1.delayedGreet(); 
+
+let Dictionary={
+    cost:500,
+    words:300
+}
+//console.log(this.cost);
+console.log(Dictionary.cost);
