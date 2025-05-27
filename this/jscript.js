@@ -30,7 +30,7 @@ function packageDetails(){
     console.log("you order is successfully place");
    }
 
-}
+} 
 let packagePlacedDetails=new packageDetails();
 let itemname=packagePlacedDetails.item;
 console.log(itemname);
