@@ -17,9 +17,9 @@ console.log(Strength);
 
 let Weakness=["Lazyness","Movies"];
 
-(function()
+(function(weakness)
 {
-    console.log("My weakness is " + Weakness );
+    console.log("My weakness is " + weakness );
 })(Weakness);
 
 //IIFE with function as parameter

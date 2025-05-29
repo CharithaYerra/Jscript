@@ -13,12 +13,10 @@ let cinemas=(...names)=>{
 };
 cinemas("hit3","yashoda");
 
-let movies=(...names)=>{
-    return `my favorite movies are ${names}`;
-
-};
-console.log(movies("hit3","yashoda"));
-
+let square=(x)=>{
+    return x*x;
+}
+console.log("Square is :"+square(4));
 
 setTimeout(()=>{
     console.log("Set time out");
