@@ -4,12 +4,12 @@
 })();
 
 //IIFE with parameters
-let Strength ="hi";//global variable
+
 (function (Strength){
     document.write("my strength is : " +Strength);
 })("Team Work");
  
-console.log(Strength);
+
 (function(...Strength){
     console.log(Strength);
 })("team work","communication","positive nature");
