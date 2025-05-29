@@ -55,3 +55,17 @@ switch (platform) {
     default:
         console.log("Unknown platform. Access denied.");
 }
+
+
+let isHavingamazonaccess=false;
+let isHavingdisneyaccess=true;
+if(isHavingamazonaccess){
+    console.log("yes i am having amazon account");
+}
+else if(isHavingdisneyaccess){
+    console.log("yes i am having disney account");
+}
+else{
+    console.log("i dont have any access");
+ 
+}
