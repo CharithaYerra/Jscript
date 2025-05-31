@@ -12,6 +12,7 @@ Courses(function(){
 });
 
 
+
 //call function with parameters
 
 function InterCourse(Ids){
@@ -36,3 +37,15 @@ Inter(function(names)
     names();
 });
 
+
+
+function greet(name, callback) {
+  console.log("Hello, " + name);
+  callback();
+}
+
+function sayBye() {
+  console.log("Goodbye!");
+}
+
+greet("Alice", sayBye);
