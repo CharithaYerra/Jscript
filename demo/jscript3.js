@@ -1,5 +1,12 @@
+//non  primitive data types
 
+let persons=[{
+    name:"divya", age:20,mail:"mail@gmail.com"
+},{
+    name:"siri",age:30,mail:"email@gmail.com"
+}];
 
+console.log(persons[0].mail);
 
 
 
@@ -10,7 +17,8 @@ var restarauntName="food hub";
 function placeOrder(orderNo)
 {
 
-   console.log(`order ${orderNo} received`);
+console.log(`order ${orderNo} received`);
+
   var fooditem="pizza";
   var cookingtime="10 minutes";
   function preparefood()
@@ -25,4 +33,6 @@ function placeOrder(orderNo)
 }
 preparefood();
 console.log("order sent to kitchen...");
+
 }
+placeOrder(1);
