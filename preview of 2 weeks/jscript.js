@@ -30,3 +30,13 @@ console.log("gmail is: ",gmail);
 let phoneno=null;
 console.log("null is: ",phoneno);
 
+
+let sym1 = Symbol("javascript");
+console.log(sym1);
+
+//non-primitive data types
+
+//objcets,arrays
+
+
+
