@@ -36,7 +36,28 @@ console.log(sym1);
 
 //non-primitive data types
 
-//objcets,arrays
+//objcets,arrays,functions
 
+let teatorsList=["ravi","apsara","prathap","sandya"];
+
+console.log("the recent movie i watch in teator is in ",teatorsList[3]);
+
+let addressOfTeators={ravi:{streetname:"ngo colony",city:"kadapa"} ,apsara:{streetname:"masima circle",city:"kadapa"
+    }
+};
+
+console.log("ravi teators address is ",addressOfTeators.ravi);
+
+
+
+//function
+//set of statements for a particular task
+
+
+function Bookshow(moviename,teator){
+    console.log("you have booked the show of ",moviename,"in the ",teator," teator")
+
+}
+Bookshow("court","apsara");
 
 
