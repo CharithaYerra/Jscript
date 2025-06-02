@@ -27,3 +27,4 @@ function dataReturn(fn){
 console.log(dataReturn(function(){
     return "the data is being retrived";
 }));
+
