@@ -44,11 +44,12 @@ catch(error){
 
 }
 
+
 try {
   let obj = null;
   obj(); // Trying to call null as a function
 } catch (e) {
-  console.log(e.name); // TypeError
+  console.log(e); // TypeError
 }
 
 
@@ -70,3 +71,32 @@ try {
   console.log("error :",e);
 }
 
+
+// no error 
+try{
+  let x=Infinity;
+  y=x+10;
+  console.log("y value is :",y);  //y value is infinity
+}
+catch(error){
+  console.log(error);
+}
+
+function add(a,b){
+  try{
+    if(typeof(a) != 'number' || typeof(b) != 'number'){
+      console.log("both should be number");
+    }
+    else{
+      return a+b;
+    }
+  
+  }
+  catch(error){
+    console.log(error);
+
+  }
+}
+console.log("addition is ",add(null,"hello"));
+
+console.log(typeof("strinng"))
