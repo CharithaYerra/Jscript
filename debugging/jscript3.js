@@ -56,6 +56,19 @@ catch(error){
 }
 
 
+try{
+  let details={
+    name:"divya",
+    age:20,
+    address:"kadapa"
+  }
+  console.log(details.city); //undefined
+}
+catch(exp){
+  console.log("error :",exp);
+}
+
+
 try {
   let obj = null;
   obj(); // Trying to call null as a function
