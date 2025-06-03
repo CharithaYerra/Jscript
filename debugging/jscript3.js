@@ -45,6 +45,17 @@ catch(error){
 }
 
 
+try{
+    //let numberArray=[1,2,3,4,5,6];
+  
+    let arr=Array(-1)
+}
+catch(error){
+    console.log("error :",error);
+
+}
+
+
 try {
   let obj = null;
   obj(); // Trying to call null as a function
@@ -81,6 +92,14 @@ try{
 catch(error){
   console.log(error);
 }
+
+
+// try{
+//   console.log("hello"
+// }
+// catch(err){
+//   console.log(err);
+// }
 
 function add(a,b){
   try{
