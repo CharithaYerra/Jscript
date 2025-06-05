@@ -132,3 +132,6 @@ function add(a,b){
 console.log("addition is ",add(null,"hello"));
 
 console.log(typeof("strinng"))
+
+
+
