@@ -1,0 +1,33 @@
+comparision Operators
+------------------
+They are used to compare two values or variables
+
+==(don't check data type),!=,<=,>=,<,>.===
+
+
+Logical Operators
+----------------
+
+logical and (&&)
+------------
+
+A       B       output
+true    true     true
+true    false    flase
+false   true     flase
+flase   false    false
+
+both conditions should be true
+
+
+logica OR(||)
+-------------------
+
+
+A       B         output
+true    true     true
+true    false    true
+false   true     true
+flase   false    false  
+
+Any one condition can be true

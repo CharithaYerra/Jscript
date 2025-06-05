@@ -1,0 +1,26 @@
+If-->if(condition){}
+--------------------
+It is a block of statements that execute if the condition is satisfied
+
+If else-->
+--------------
+
+if(condition){
+
+}
+else{
+
+}
+It is used to if the condition is false then the else part will be executed
+
+
+If else if
+-------------
+It is used to check multiple conditions in a series manner until one of condition is true
+if all the conditions are false then else part will execute
+
+
+Switch
+---------
+It is used to goto the case whose value is equal to the given value and execute the part until break
+

@@ -1,0 +1,12 @@
+this refers to object and its value is determined by the calling area
+
+Global-->It shows the window
+
+Object--> If it is used in the function which is value of some key in the object it refers to that particular object
+
+Constructor Function-->New object
+
+Arrow-->it shows windows
+
+
+If we use the arrow functin in the method as value of object and try the console to see the object value directly without the variable name it will be undefined

@@ -1,0 +1,22 @@
+Debugging--->
+
+debugger/break point
+----------------
+It pauses the code execution at that particular point ,so we can inspect the code.
+
+
+Resume---F8 key
+-----------
+To resume the execution of code from debugger or break point
+
+Step Over--F10
+-----------------
+To go to the next line to inspect
+
+Step Into--F11
+-------------------
+Into the function like function call
+
+StepOut--shift+F11
+-------------------
+Step out of current function where the code line is at
