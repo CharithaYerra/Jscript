@@ -20,3 +20,20 @@ Into the function like function call
 StepOut--shift+F11
 -------------------
 Step out of current function where the code line is at
+
+
+
+There are different types of errors
+
+1.compile time
+--------------
+mainly spelling mistakes and syntax errors
+
+2.Runtime errors
+-------------
+they appear in run time 
+
+
+we use try catch finally to for run time
+
+we should keep the error program in try and the catch will catch if any errors and finally executes always after the try and catch

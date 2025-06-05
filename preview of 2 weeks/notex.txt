@@ -1,0 +1,256 @@
+document.write(); is used to write into the web pages
+To get an alert in the page we have to us window.aler(); sytax.
+
+Variables
+----------
+this can be reassigned and redeclared 
+sytax = var a=10;
+
+let
+-----
+we cant redeclare but we can assign the values again
+
+const
+-------
+only once declare and assign value to the Variables
+ 
+
+ Primitive data types
+--------------------
+primitive data types have the single value 
+ex:strings , number,true or false, null ,undefined
+ 
+ we can use the values in the string by using $ symbol
+ `${variablename}`
+
+ undefined
+ ------
+ if we don't assign any value it will in undefined mode
+ by default.
+ But only for defined and not assigned
+
+ Non primitive data types
+ ----------------------
+ it contain multiple values ex=arrays,objects,functions
+array-->can contain the values which can acceced by index values
+let a=[1,2,2,];
+object-->has the key and values can be access the value by using the key
+let NameAge={divya:10,Sarala:20};
+functions-->we can encolse the statements to make into a singular group
+
+we can access array by using the index number[]
+we can access object values using the key value variable.key
+
+
+
+cntrl+g
+ 
+ functions
+ ---------------
+ functions are used to encircle a group of statements as a block
+ work by calling them
+function functionname(){
+    --;
+    ---;
+} 
+functionname();
+
+Styling the console
+-------------
+console.log("%cstring","stylename:value");
+
+
+
+
+Styling console
+------------------
+We use %c to style the console
+
+stying Documnet--> we can style the document similar to the css
+
+Function calling inside the other Function
+-------------
+ 1.if the function is a global function then we can call it in any function
+ 2.But the function is declared insided the function its scope will only remain 
+ to that function.
+ 3.We can get the values by return key word
+
+ * To use the inner function outside the function we can assign the function 
+   to the global variable
+
+Parameters and arguments
+--------------------------
+Arguments are the values that we send to the function while function calling.
+Parameter are the variable that store that values.
+
+parameters of 3 types they are
+Optional parameter-->WE can send arguments otherwise not
+Default parameters-->If we don't the values in calling it will have a default values
+Rest Parameter--->We can send infite arguments that can store in array
+
+Return values and non return values
+------------------------------------
+The function send the return values to the calling function
+the function does not give any return values
+It uses return keyword to return the values
+
+
+Named functions
+--------------------
+the function having a Name
+
+Anonumus function
+------------------
+The function that does not have name or IIFE (immediateltly invoke functions expression)
+
+Array function
+-----------------
+the function is declared in form of an array it give a clear view or understanding
+
+callback function
+------------------------
+the function that accepts the other functions as the parameters are known as callback functions
+
+
+Predefined function
+---------------------------
+setTimeout->is used to perform after the give time 
+setInterval-->It perform repeatedly after the given time intervals
+
+
+
+
+Execution scope
+---------------------------
+When a variable is declared it will be acceseble at a particular par of a code.
+global execution code-->the default element it can be available at entire code
+local execution code----> created within a block,the declared variables are only available in that particular block
+scope chain-->
+the child block has the access over parent variables but not viceversa
+
+
+Debugging--->
+
+debugger/break point
+----------------
+It pauses the code execution at that particular point ,so we can inspect the code.
+
+
+Resume---F8 key
+-----------
+To resume the execution of code from debugger or break point
+
+Step Over--F10
+-----------------
+To go to the next line to inspect
+
+Step Into--F11
+-------------------
+Into the function like function call
+
+StepOut--shift+F11
+-------------------
+Step out of current function where the code line is at
+
+
+this refers to object and its value is determined by the calling area
+
+Global-->It shows the window
+
+Object--> If it is used in the function which is value of some key in the object it refers to that particular object
+
+Constructor Function-->New object
+
+Arrow-->it shows windows
+
+
+If we use the arrow functin in the method as value of object and try the console to see the object value directly without the variable name it will be undefined
+
+
+
+
+
+
+
+
+
+If-->if(condition){}
+--------------------
+It is a block of statements that execute if the condition is satisfied
+
+If else-->
+--------------
+
+if(condition){
+
+}
+else{
+
+}
+It is used to if the condition is false then the else part will be executed
+
+
+If else if
+-------------
+It is used to check multiple conditions in a series manner until one of condition is true
+if all the conditions are false then else part will execute
+
+
+Switch
+---------
+It is used to goto the case whose value is equal to the given value and execute the part until break
+
+
+
+
+comparision Operators
+------------------
+They are used to compare two values or variables
+
+==(don't check data type),!=,<=,>=,<,>.===
+
+
+Logical Operators
+----------------
+
+logical and (&&)
+------------
+
+A       B       output
+true    true     true
+true    false    flase
+false   true     flase
+flase   false    false
+
+both conditions should be true
+
+
+logica OR(||)
+-------------------
+
+
+A       B         output
+true    true     true
+true    false    true
+false   true     true
+flase   false    false  
+
+Any one condition can be true
+
+
+
+
+here are different types of errors
+
+1.compile time
+--------------
+mainly spelling mistakes and syntax errors
+
+2.Runtime errors
+-------------
+they appear in run time 
+
+
+we use try catch finally to for run time
+
+we should keep the error program in try and the catch will catch if any errors and finally executes always after the try and catch
