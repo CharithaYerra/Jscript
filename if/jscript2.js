@@ -69,3 +69,15 @@ else{
     console.log("i dont have any access");
  
 }
+
+
+function stopwatch(seconds) {
+  if (seconds > 0) {
+    console.log(`Time left: ${seconds} seconds`);
+    setTimeout(() => stopwatch(seconds - 1), 1000); // Call again after 1 second
+  } else {
+    console.log("Countdown completed.........");
+  }
+}
+
+stopwatch(5);
