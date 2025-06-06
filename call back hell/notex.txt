@@ -20,3 +20,13 @@ they can run before the previous one hasn't finished
 
 1.call back functions
 2.promises
+
+
+promises-->javascript object represent the result of task which will it finished
+we can develop asynchronous calls
+
+new promise((resolve,reject)=>{
+    resolve("");
+    reject("");
+})
+promise.then((result)=>{}).reject((result)=>{});
