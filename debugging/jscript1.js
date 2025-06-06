@@ -39,3 +39,8 @@ function Company(listed){
 document.write(Company(function(){
     document.write("there are companies are being listed");
 }));
+
+
+setTimeout(()=>{
+    console.log("This will appear after 2 seconds");
+},2000)

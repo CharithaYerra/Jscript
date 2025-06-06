@@ -9,9 +9,14 @@ synchronous calls
 ------------
 these are interconnted to each other and only executes one by one
 they run sequentially
+1.normal calling of functions will go step by step 
+2.callback hell
 
 asynchronous calls
 ----------------
 they are parllel to each other
 they are independent of each other without waiting for another
 they can run before the previous one hasn't finished
+
+1.call back functions
+2.promises
