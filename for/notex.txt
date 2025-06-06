@@ -1,3 +1,36 @@
 for
 ------------
-tp execute no.of statements repetedly
+to execute no.of statements repetedly
+for(initialization;condition;increment/decrement){}
+
+for using in array
+---------------------
+to get the values of array without using index no in sequence order
+
+for(let variable of arrayname){
+
+}
+we can get the object key and value using this
+for(let [key,value] of Object.entries(objname)){
+
+}
+
+for using in object
+--------------------
+for(let variable in objname){
+    we get keys in sequence
+}
+
+while
+------------
+to execute the code until the condition remains true
+
+do while
+--------------
+do while is similar to the while but it atleast runs the code one time 
+it runs the code and check condition later
+
+while(condition){}
+do{
+    //statements
+}while(condition);

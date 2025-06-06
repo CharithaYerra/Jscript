@@ -23,4 +23,4 @@ for(let i=seconds;i>=1;i--){
 }
 }
 stopwatch(5);
-console.timeEnd("time start");
+console.timeEnd("time start");//4999
