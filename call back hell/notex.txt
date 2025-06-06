@@ -1,0 +1,17 @@
+call back hell
+--------------------
+there are multiple call back functions nested in the parameters
+They are difficult to understand and read
+
+callback(()=>{callback2();});
+
+synchronous calls
+------------
+these are interconnted to each other and only executes one by one
+they run sequentially
+
+asynchronous calls
+----------------
+they are parllel to each other
+they are independent of each other without waiting for another
+they can run before the previous one hasn't finished
