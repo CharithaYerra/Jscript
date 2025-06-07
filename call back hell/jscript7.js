@@ -28,32 +28,32 @@ function delivery(item) {
 
 }
 
-order("tv").then((msg) => {
-    console.log(msg);
-    return packing("tv");
-}).then((msg) => {
-    console.log(msg);
-    return delivery("tv");
+// order("tv").then((msg) => {
+//     console.log(msg);
+//     return packing("tv");
+// }).then((msg) => {
+//     console.log(msg);
+//     return delivery("tv");
 
-}).then((msg) => {
-    console.log(msg);
-    (setTimeout(() => {
+// }).then((msg) => {
+//     console.log(msg);
+//     (setTimeout(() => {
 
-        console.log("item delivered");
-        console.timeEnd("start");
-    }, 2000));
-
-
-});
+//         console.log("item delivered");
+//         console.timeEnd("start");
+//     }, 2000));
 
 
-// Promise.all([order("tv"),packing("tv"),delivery("tv")]).then((result)=>{
-//     console.log(result);
-//     setTimeout(()=>{
-//         console.log("the item has been delivered");
-//     console.timeEnd("start");
+// });
 
-//     });
-// })
+
+Promise.all([order("tv"),packing("tv"),delivery("tv")]).then((result)=>{
+    console.log(result);
+    setTimeout(()=>{
+        console.log("the item has been delivered");
+    console.timeEnd("start");
+
+    });
+})
 
 
