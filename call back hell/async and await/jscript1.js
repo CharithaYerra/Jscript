@@ -48,3 +48,44 @@ async function greetUser() {
 
 greetUser();
 
+
+function boilWater() {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      console.log("Water has boiled.");
+      resolve();
+    }, 4000); // 4 seconds
+  });
+}
+
+function addTeaLeaves() {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      console.log("Tea leaves added.");
+      resolve();
+    }, 1000); // 1 second
+  });
+}
+
+function pourTea() {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      console.log("Tea is poured. Enjoy! ☕");
+      resolve();
+    }, 500); // 0.5 second
+  });
+}
+
+async function makeTea() {
+  console.log("Starting tea preparation...");
+  
+  await boilWater();
+  await addTeaLeaves();
+  await pourTea();
+
+  console.log("Tea is ready!");
+}
+
+makeTea();
+
+

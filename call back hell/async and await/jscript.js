@@ -36,6 +36,42 @@ greet("telugu").then((message)=>{
 });
 
 
+//simple use of asyn by addition
+async function sum(a,b){
+    return a+b;
+}
+
+sum(4,5).then((result)=>{
+    console.log(result);
+});
+
+
+async function add(a, b) {
+  return a + b;
+}
+
+const result = add(5, 10);
+
+console.log(result); // 👉 Promise { 15 }
+
+result.then((sum) => {
+  console.log("The sum is:", sum); //  The sum is: 15
+});
+
+
+
+async function loginUser(username) {
+  return `Welcome, ${username}!`;
+}
+
+const response = loginUser("Divya");
+
+console.log(response); //  Promise { "Welcome, Divya!" }
+
+response.then((message) => {
+  console.log(message); //  Welcome, Divya!
+});
+
 
 
 
