@@ -1,0 +1,17 @@
+async-->
+
+async is used before a function to make it return a Promise automatically.
+
+Even if the function returns a simple value, it will be wrapped in a Promise
+
+
+await
+------------
+
+await can only be used inside async functions.
+
+It pauses the function execution until the Promise returns the resolve.
+
+It helps you write cleaner, readable asynchronous code without .then() chaining.
+
+

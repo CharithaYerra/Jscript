@@ -45,3 +45,16 @@ else{
 }
 
 
+
+let signal = "green";
+
+if (signal === "red") {
+  console.log("Stop");
+} else if (signal === "yellow") {
+  console.log("Slow down");
+} else if (signal === "green") {
+  console.log("Go");
+} else {
+  console.log("Invalid signal");
+}
+
