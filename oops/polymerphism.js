@@ -33,7 +33,7 @@ for (let person of people) {
 }
 
 
-
+//lab program
 
 class Shape {
   getArea() {
