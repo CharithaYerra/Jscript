@@ -80,6 +80,6 @@ const shapes = [
 ];
 
 shapes.forEach(shape => {
-  console.log(`Area: ${shape.getArea().toFixed(2)}`);
+  console.log(`Area: ${shape.getArea()}`);
 });
 
