@@ -18,8 +18,13 @@ class Teacher extends Person {
 
 
 
+// let teacher1=new Teacher();
+// teacher1.introduce();
+
 // let student1=new Student();
 // student1.introduce();
+
+
 
 let people = [new Person(), new Student(), new Teacher()];
 
