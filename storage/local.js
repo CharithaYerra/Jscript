@@ -6,7 +6,7 @@ const name = localStorage.getItem('username');
 console.log(name); // Output: Alice
 
 // Remove data
-//localStorage.removeItem('username');
+//nlocalStorage.removeItem('username');
 
 // Clear all data
 //localStorage.clear();

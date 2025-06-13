@@ -1,0 +1,19 @@
+Session Storage: Data is stored for the duration of 
+the page session and is cleared when the tab or browser is closed.
+
+sessionStorage.setItem('sessionID', '123456');
+
+
+Local Storage: Data is stored even after the browser or
+ tab is closed and persists until the user clears it manually or through code.
+
+localStorage.setItem('username', 'Divya');
+
+
+ export: We can export the functions and variables of js file into another
+  file by using keyword export
+
+
+ import:we can import the exportted functions by import keyword 
+
+import { Person } from './person.js';
