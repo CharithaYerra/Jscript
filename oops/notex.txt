@@ -1,0 +1,24 @@
+1. Encapsulation
+Definition: Wrapping data (variables) and methods (functions) together into a single unit (class).
+
+Goal: Hide the internal state of the object and only expose what is necessary.
+
+2. Abstraction
+Definition: Hiding complex internal details and showing only essential features.
+
+Goal: Reduce complexity and isolate the impact of changes.
+
+
+3. Inheritance
+Definition: One class (child) inherits the properties and behaviors of another class (parent).
+
+Goal: Code reusability.
+
+4. Polymorphism
+Definition: One thing can take many forms.
+
+Types:
+
+Compile-time polymorphism (Method Overloading)
+
+Run-time polymorphism (Method Overriding)
