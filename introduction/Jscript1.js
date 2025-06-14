@@ -82,3 +82,4 @@ console.log("Original array:", myArray);
 myArray.push(6,7);
 console.log("Array after pushing multiple values:", myArray);     
 
+
