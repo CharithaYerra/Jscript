@@ -1,9 +1,9 @@
-console.log("A"-1);//nan
-console.log("divya"+100);
-console.log("2"+2-"2");
+console.log("A"-1); //NaN
+console.log(100+"divya"); //divya100
+console.log(2+"2"-"2"); //20
 
-console.log(3+3+"3");
-console.log("3"+3+3);
+console.log(3+3+"3"); //63
+console.log("3"+3+3);//333
 
 //speak audio
 let text="hello world";
